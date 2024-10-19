@@ -769,14 +769,25 @@ body {
   margin-bottom: 1.5rem; /* mb-6 */
   color: #370b18;
 }
-
+@media screen and (min-width: 768px) {
+    .unique-faq-item {
+        border-top: 1px solid #e5e7eb; /* border-t */
+        border-bottom: 1px solid #e5e7eb; /* border-b */
+        padding: 1rem; /* py-4 */
+        background-color: white; /* Default background */
+        margin: auto;
+        width: 70%;
+        margin-bottom: 10px;
+      }
+    
+}
 .unique-faq-item {
   border-top: 1px solid #e5e7eb; /* border-t */
   border-bottom: 1px solid #e5e7eb; /* border-b */
   padding: 1rem; /* py-4 */
   background-color: white; /* Default background */
   margin: auto;
-  width: 70%;
+  width: 90%;
   margin-bottom: 10px;
 }
 
